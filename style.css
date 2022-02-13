@@ -1,3 +1,122 @@
-body {
-    background-color: #c9c9c9;
+/* Sets rules for all <div>s */
+div {display: block;}
+/* sets rules for the header */
+
+
+/* sets rules for the website header */
+.logo {
+  font-size: 28px;
+  color: #1D1D1D;
+  margin: auto;
+  text-align: center;
+  border-bottom: 1px solid #1d1d1d;
+  background-color: #82ca9c;
+}
+#logo {
+  height: 100px;
+  width: auto;
+}
+
+/* For the slashes between links in navbar */
+span.delimiter {
+  color: #e6e6e6;
+  padding: 6px;
+}
+
+/* rules for links outside of navba*/
+a, a:visited {color: #0031AD;}
+
+
+/* set rules for body */
+body {background-color: #C9C9C9;}
+
+.main-body {
+  padding: 20px 0px;
+  width: 68%;
+  top: 0px;
+  text-align: center;
+ /* position: absolute;*/
+ display: block;
+ margin: 80px auto auto auto; 
+ left: 5%;
+
+}
+
+/* Detailes for post segments */
+article.post {
+  
+	text-align: left;
+	width: 530px;
+	display: block;
+	float: left;
+	position: relative;
+}
+/*Title rules*/
+div.title {
+  font-size: 36px;
+  color: #121212;
+}
+/*Post body rules*/
+div.content {
+  padding: 12px 0px;
+  font-size: 20px;
+  color: #3B3B3B;
+  font-family: Lato, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Post footer rules*/
+footer.article-footer {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 24px;
+  border-top: 1px solid #e6e6e6;
+  padding-top: 12px;
+}
+.footer-text {
+  color: rgba(28,28,28,.4)
+}
+
+/* sidebar rules */
+.sidebar {
+	width: 145px;
+	float: right;
+	position: relative;
+	top: 0%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #1D1D1D;
+  border-radius: 25px;
+  font-size: 18.7px;
+  font-family: Lato;
+}
+h2.sidebar {
+  border-bottom: #1D1D1D;
+}
+/* sets rules for list of donation methods on the sidebar */
+.donate {
+  margin-top: 12px;
+  border-top: 1px solid #1D1D1D;
+
+}
+
+
+/* link rules */
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #1d1d1d;
+}
+a:visited {
+  color: #1d1d1d;
+}
+a:hover {
+  color: #a186bd;
+}
+ul {
+  list-style: none;
 }

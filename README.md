@@ -1,2 +1,2 @@
 # FroidOnline
-A Simple Webpage for myself and my projects
+A simple webpage for yself and my projects
