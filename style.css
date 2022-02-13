@@ -1,31 +1,25 @@
 /* Sets rules for all <div>s */
 div {display: block;}
-/* sets rules for the header */
-
-
 /* sets rules for the website header */
-.logo {
+#header {
   font-size: 28px;
   color: #1D1D1D;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
   border-bottom: 1px solid #1d1d1d;
   background-color: #82ca9c;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  font-family: Lato;
+  border-radius: 15px;
+
+
 }
 #logo {
-  height: 100px;
+  height: 75px;
   width: auto;
 }
-
-/* For the slashes between links in navbar */
-span.delimiter {
-  color: #e6e6e6;
-  padding: 6px;
-}
-
-/* rules for links outside of navba*/
-a, a:visited {color: #0031AD;}
-
 
 /* set rules for body */
 body {background-color: #C9C9C9;}
@@ -42,7 +36,7 @@ body {background-color: #C9C9C9;}
 
 }
 
-/* Detailes for post segments */
+/* Details for post segments */
 article.post {
   
 	text-align: left;
@@ -108,10 +102,7 @@ a {
   text-decoration: none;
 }
 
-a:link {
-  color: #1d1d1d;
-}
-a:visited {
+a, a:visited {
   color: #1d1d1d;
 }
 a:hover {
